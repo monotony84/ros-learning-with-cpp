@@ -2,7 +2,7 @@
 <package format="2">
   <name>ros_tutorials_topic</name>
   <version>0.0.0</version>
-  <description>ROS turtorial package to learn teh topic</description>
+  <description>ROS tutorial package to learn the topic</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
