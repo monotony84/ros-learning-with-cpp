@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
   srv.request.b = atoll(argv[2]);
 
   if (ros_tutorials_service_client.call(srv)) {
-    ROS_INFO("send srv, srv.request.a, srv.request.b: %ld, $ld", (long int) srv.request.a, (long int) srv.request.b);
+    ROS_INFO("send srv, srv.request.a, srv.request.b: %ld, %ld", (long int) srv.request.a, (long int) srv.request.b);
     ROS_INFO("receive srv, srv.Response.result: %ld", (long int) srv.response.result);
   } else {
     ROS_ERROR("Failed to call service ros_tutorial_srv");
